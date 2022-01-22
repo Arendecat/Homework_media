@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		15B5622525DE323700D5B871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622425DE323700D5B871 /* AppDelegate.swift */; };
 		15B5622725DE323700D5B871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622625DE323700D5B871 /* SceneDelegate.swift */; };
-		15B5622925DE323700D5B871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622825DE323700D5B871 /* ViewController.swift */; };
-		15B5622C25DE323700D5B871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622A25DE323700D5B871 /* Main.storyboard */; };
+		15B5622925DE323700D5B871 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5622825DE323700D5B871 /* AudioViewController.swift */; };
 		15B5622E25DE323900D5B871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622D25DE323900D5B871 /* Assets.xcassets */; };
 		15B5623125DE323900D5B871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622F25DE323900D5B871 /* LaunchScreen.storyboard */; };
 		15B5623B25DE403800D5B871 /* Queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15B5623A25DE403800D5B871 /* Queen.mp3 */; };
+		7859AFC7279C4E4B00ACB35E /* Arctic Monkeys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7859AFC3279C4E4900ACB35E /* Arctic Monkeys.mp3 */; };
+		7859AFC8279C4E4B00ACB35E /* Panic! At The Disco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7859AFC4279C4E4A00ACB35E /* Panic! At The Disco.mp3 */; };
+		7859AFC9279C4E4B00ACB35E /* Linkin Park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7859AFC5279C4E4A00ACB35E /* Linkin Park.mp3 */; };
+		7859AFCA279C4E4B00ACB35E /* Our Last Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7859AFC6279C4E4B00ACB35E /* Our Last Night.mp3 */; };
+		7859AFCC279C68E800ACB35E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7859AFCB279C68E800ACB35E /* TabBar.swift */; };
+		7859AFCE279C693200ACB35E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7859AFCD279C693200ACB35E /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15B5622125DE323700D5B871 /* AVFoundation_Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundation_Audio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B5622425DE323700D5B871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B5622625DE323700D5B871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15B5622825DE323700D5B871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15B5622B25DE323700D5B871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15B5622825DE323700D5B871 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		15B5622D25DE323900D5B871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B5623025DE323900D5B871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B5623225DE323900D5B871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B5623A25DE403800D5B871 /* Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Queen.mp3; sourceTree = "<group>"; };
+		7859AFC3279C4E4900ACB35E /* Arctic Monkeys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Arctic Monkeys.mp3"; sourceTree = "<group>"; };
+		7859AFC4279C4E4A00ACB35E /* Panic! At The Disco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Panic! At The Disco.mp3"; sourceTree = "<group>"; };
+		7859AFC5279C4E4A00ACB35E /* Linkin Park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Linkin Park.mp3"; sourceTree = "<group>"; };
+		7859AFC6279C4E4B00ACB35E /* Our Last Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Our Last Night.mp3"; sourceTree = "<group>"; };
+		7859AFCB279C68E800ACB35E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7859AFCD279C693200ACB35E /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,9 @@
 			children = (
 				15B5622425DE323700D5B871 /* AppDelegate.swift */,
 				15B5622625DE323700D5B871 /* SceneDelegate.swift */,
-				15B5622825DE323700D5B871 /* ViewController.swift */,
-				15B5622A25DE323700D5B871 /* Main.storyboard */,
+				7859AFCB279C68E800ACB35E /* TabBar.swift */,
+				7859AFCD279C693200ACB35E /* VideoViewController.swift */,
+				15B5622825DE323700D5B871 /* AudioViewController.swift */,
 				15B5622D25DE323900D5B871 /* Assets.xcassets */,
 				15B5622F25DE323900D5B871 /* LaunchScreen.storyboard */,
 				15B5623925DE3FDE00D5B871 /* Music */,
@@ -73,6 +84,10 @@
 		15B5623925DE3FDE00D5B871 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				7859AFC3279C4E4900ACB35E /* Arctic Monkeys.mp3 */,
+				7859AFC5279C4E4A00ACB35E /* Linkin Park.mp3 */,
+				7859AFC6279C4E4B00ACB35E /* Our Last Night.mp3 */,
+				7859AFC4279C4E4A00ACB35E /* Panic! At The Disco.mp3 */,
 				15B5623A25DE403800D5B871 /* Queen.mp3 */,
 			);
 			path = Music;
@@ -136,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B5623125DE323900D5B871 /* LaunchScreen.storyboard in Resources */,
+				7859AFC9279C4E4B00ACB35E /* Linkin Park.mp3 in Resources */,
+				7859AFC7279C4E4B00ACB35E /* Arctic Monkeys.mp3 in Resources */,
 				15B5622E25DE323900D5B871 /* Assets.xcassets in Resources */,
+				7859AFCA279C4E4B00ACB35E /* Our Last Night.mp3 in Resources */,
+				7859AFC8279C4E4B00ACB35E /* Panic! At The Disco.mp3 in Resources */,
 				15B5623B25DE403800D5B871 /* Queen.mp3 in Resources */,
-				15B5622C25DE323700D5B871 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B5622925DE323700D5B871 /* ViewController.swift in Sources */,
+				15B5622925DE323700D5B871 /* AudioViewController.swift in Sources */,
 				15B5622525DE323700D5B871 /* AppDelegate.swift in Sources */,
 				15B5622725DE323700D5B871 /* SceneDelegate.swift in Sources */,
+				7859AFCE279C693200ACB35E /* VideoViewController.swift in Sources */,
+				7859AFCC279C68E800ACB35E /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		15B5622A25DE323700D5B871 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15B5622B25DE323700D5B871 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		15B5622F25DE323900D5B871 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
